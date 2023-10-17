@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: 'poppins', sans-serif;
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FC5C7D;
+    background: -webkit-linear-gradient(to bottom right, #6A82FB, #FC5C7D);
+    background: linear-gradient(to bottom right, #6A82FB, #FC5C7D);
+
+}
+
+.login-field
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+    width: 500px;
+    margin: 50px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+}
+
+.login-field h1
+{
+    text-align: center;
+    margin: 35px 0;
+}
+
+.login-field form div
+{
+    position: relative;
+    height: 40px;
+    width: 375px;
+    border-bottom: 1px solid gray;
+}
+
+.login-field form div.username input, .login-field form div.password input
+{
+    height: 100%;
+    width: 340px;
+    float: right;
+    font-size: 14px;
+}
+
+.login-field form input::placeholder
+{
+    color: #bfbfbf;
+}
+
+.login-field form div i
+{
+    padding: 9px;
+    margin-top: 4px;
+    color: gray;
+}
+
+.login-field form div.username
+{
+    margin-bottom: 20px;
+}
+
+.login-field form a
+{
+    float: right;
+    margin-top: 10px;
+    font-size: 14px;
+    color: gray;
+}
+
+.login-field form a:hover
+{
+    color: black;
+    text-decoration: underline;
+}
+
+.login-field form input[type = "submit"]
+{
+    width: 375px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    background: #FC5C7D;
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);
+    background: linear-gradient(to right, #6A82FB, #FC5C7D);
+    transition: 0s 0.4s all ease-in-out;
+}
+
+.login-field form input[type = "submit"]:hover
+{
+    background: #FC5C7D;
+    background: -webkit-linear-gradient(to bottom left, #6A82FB, #FC5C7D);
+    background: linear-gradient(to bottom left, #6A82FB, #FC5C7D);
+}
+
+.login-field .links
+{
+    margin: 30px 0;
+    text-align: center;
+    width: 375px;
+    padding: 20px 0;
+}
+
+.login-field .links .icons
+{
+    margin-top: 30px;
+}
+
+.login-field .links .icons a
+{
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 50%;
+    background-color: gray;
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+.login-field .sign-up
+{
+    width: 375px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 60px;
+}
+
+.login-field .sign-up a
+{
+    color: gray;
+    transition: 0.4s color ease-in-out;
+}
+
+.login-field .sign-up a:hover
+{
+    color: forestgreen;
+}
