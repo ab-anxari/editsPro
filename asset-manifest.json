@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/editsPro/static/css/main.bc172cf0.css",
+    "main.js": "/editsPro/static/js/main.b5d15228.js",
+    "static/js/787.28cb0dcd.chunk.js": "/editsPro/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/editsPro/index.html",
+    "main.bc172cf0.css.map": "/editsPro/static/css/main.bc172cf0.css.map",
+    "main.b5d15228.js.map": "/editsPro/static/js/main.b5d15228.js.map",
+    "787.28cb0dcd.chunk.js.map": "/editsPro/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc172cf0.css",
+    "static/js/main.b5d15228.js"
+  ]
+}
